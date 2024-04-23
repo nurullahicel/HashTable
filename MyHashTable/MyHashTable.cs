@@ -15,7 +15,7 @@ namespace MyHashTable
         }
         private int _hash(int key)
         {
-            return key % _hashTable.Length;
+            return key % 5;
         }
         public void Set(int key, string value)
         {
